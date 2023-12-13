@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wrap {
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 59px;
+}
+
+.wrap_box {
+    display: flex;
+    flex-direction: row;
+    gap: 76px;
+    align-items: center;
+}
+
+.wrap_gallery {
+    width: 312px;
+    height: 290px;
+    background-image: url(./img/pro.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s ease;
+}
+
+.wrap_text h1 {
+    color: #000;
+    text-align: center;
+    font-size: 48px;
+}
+
+.wrap_text span {
+    color: #0071E3 !important;
+    font-size: 24px !important;
+}
+
+.wrap_text .price {
+    text-align: start;
+    padding-top: 50px;
+}
+
+.click_color {
+    display: flex;
+    gap: 11px;
+    justify-content: center;
+    padding-bottom: 39px;
+}
+
+.click_color button {
+    width: 155px;
+    height: 42px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.active {
+    background: #0071E3 !important;
+    color: #FFF !important;
+    border-color: #0071E3 !important;
+}
+
+.gry {
+    background: #CFE7FF;
+    color: #797979;
+    border-color: #CFE7FF;
+}
+
+.click_price {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+}
+
+.click_price button {
+    width: 321px;
+    height: 57px;
+    background: #FFF;
+    border-radius: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.left {
+    color: #000;
+    font-size: 18px;
+}
+
+.right {
+    color: #000;
+    font-size: 14px;
+}
+
+.active_2 {
+    border: 2px solid #007FFF !important;
+}
+
+.btn {
+    border: 2px solid #CFE7FF;
+}
